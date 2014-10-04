@@ -78,7 +78,7 @@ If you open the source code of `java.io.BufferedReader`, you will see it impleme
 If you want to use this feature in your custom resources, just implement the AutoCloseable interface.
 
 
-###A shortcut for generic type instantiation
+###A shortcut for generic type instantiation since Java 7
 Short story: now you can declare generic types as: Map<String, Map<String, Map<Integer, List<MyBean>>>> map = new HashMap<>();
 
 Actually it's an old feature of [Guava](https://code.google.com/p/guava-libraries/), great library by the way.
