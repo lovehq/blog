@@ -38,6 +38,10 @@ tags : [java, css, design pattern]
 1. Java persistence with MyBatis 3
 	(score: 2)
 	<br/><br/>
-	
-Reading "Lucene in action" now
+1. Lucene in action
+	(score: 8)
+	<br/><br/>
+1. Solr in action
+	(score: 8)
+	<br/><br/>
 
