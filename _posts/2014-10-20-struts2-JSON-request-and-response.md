@@ -7,7 +7,7 @@ tags : [java, struts, json]
 {% include JB/setup %}
 
 ### Struts2 JSON Request
-If you're using struts2 and want to send JSON parameters to the server, You can use the [JSON Plugin](http://struts.apache.org/release/2.3.x/docs/json-plugin.html). And you don't need to extend its "json-default" package. Actually the package just declares a JSON interceptor and a JSON result-type(we won't use it here). Declare the JSON interceptor in your own package and you can starte sending JSON request to your server. Just make sure you read the rules first:
+If you're using struts2 and want to send JSON request to the server, You can use the [JSON Plugin](http://struts.apache.org/release/2.3.x/docs/json-plugin.html). And you don't need to extend its "json-default" package. Actually the package just declares a JSON interceptor and a JSON result-type(we won't use it here). Declare the JSON interceptor in your own package and you can starte sending JSON request to your server. Just make sure you read the rules first:
 
     1. The "content-type" must be "application/json"
     2. The JSON content must be well formed, see json.org for grammar.
@@ -36,3 +36,5 @@ Actually we can write a **simple** JSON result-type by ourself (suppose we store
             responseStream.print(jsonModel);
         }
     }
+
+The code is quite straightforward, you should enrich it to suit your own needs.
